@@ -400,13 +400,13 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"explorer.beherocoin.io", ""};
+static const string mainnet_seeds[] = {"seed.behero.io", ""};
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
   if (!fTestNet){
-    db.Add(CService("seed.beherocoin.io", 11701), true);
+    db.Add(CService("seed.behero.io", 11701), true);
   }
   do {
     for (int i=0; seeds[i] != ""; i++) {
