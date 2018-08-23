@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "map": "cpp",
+        "memory": "cpp",
+        "set": "cpp",
+        "streambuf": "cpp",
+        "vector": "cpp",
+        "xmemory0": "cpp",
+        "xstring": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
+    }
+}
